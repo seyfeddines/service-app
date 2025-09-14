@@ -50,7 +50,7 @@ class CurrentOrdersItem extends StatelessWidget {
               ),
               _Data(
                 title: 'Cost',
-                data: '\$' + order.cost.toString(),
+                data:order.cost.toString() + 'DZA' ,
                 dataColor: Theme.of(context).primaryColor,
               ),
             ],

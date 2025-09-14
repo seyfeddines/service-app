@@ -67,7 +67,7 @@ class RequestServiceScreen extends StatelessWidget {
                 ),
               ),
               Text(
-                '\$' + serviceGiver.cost.toStringAsFixed(2),
+                'DZa' + serviceGiver.cost.toStringAsFixed(2),
                 style: const TextStyle(
                   color: Colors.blue,
                   fontSize: 20,

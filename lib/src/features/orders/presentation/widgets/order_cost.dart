@@ -19,7 +19,7 @@ class OrderCost extends StatelessWidget {
         ),
         Container(
           child: Text(
-            '\$' + cost.toString(),
+              cost.toString()+'DZA',
             style: const TextStyle(
               color: Colors.white,
               fontSize: 18,

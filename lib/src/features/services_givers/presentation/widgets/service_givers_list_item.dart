@@ -54,7 +54,7 @@ class ServiceGiversListItem extends StatelessWidget {
               const SizedBox(height: 10),
               lineOfData(
                 'Cost',
-                '\$' + serviceGiver.cost.toStringAsFixed(2),
+                'DZA' + serviceGiver.cost.toStringAsFixed(2),
                 Colors.blue,
               ),
               const SizedBox(height: 10),
@@ -140,7 +140,7 @@ class ServiceGiversListItem extends StatelessWidget {
       ),
       title: Text(serviceGiver.name),
       subtitle: Text(serviceGiver.city),
-      trailing: Text('\$${serviceGiver.cost}'),
+      trailing: Text('Dza ${serviceGiver.cost}'),
     );
   }
 }
