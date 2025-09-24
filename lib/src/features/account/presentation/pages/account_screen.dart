@@ -12,6 +12,9 @@ class AccountScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
+    final s = "string";
     final profile = Provider.of<Account>(context, listen: false);
     return Scaffold(
       appBar: AppBar(
